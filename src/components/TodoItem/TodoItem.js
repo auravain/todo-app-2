@@ -4,7 +4,7 @@ import './TodoItem.css';
 function Todo(props) {
 	const { content, id } = props;
 	return (
-		<div>
+		<div className="content-todos">
 			{content}
 			<button className="destroy" onClick={() => props.onDelete(id)}>
 				Sil
