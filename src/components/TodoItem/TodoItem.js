@@ -11,6 +11,6 @@ function Todo(props) {
 			</button>
 		</div>
 	);
-}
+};
 
 export default Todo;
